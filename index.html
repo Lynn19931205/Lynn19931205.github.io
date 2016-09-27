@@ -54,13 +54,13 @@
                         <ul id="main-nav">
                             
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">Home</a>
+                                    <a class="main-nav-list-link" href="/">Inici</a>
                                 </li>
                             
-                                        
+                                        <ul class="main-nav-list"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Tech/">Tech</a><ul class="main-nav-list-child"><li class="main-nav-list-item"><a class="main-nav-list-link" href="/categories/Tech/Software/">Software</a></li></ul></li></ul>
                                     
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">Quant a</a>
                                 </li>
                             
                         </ul>
@@ -68,7 +68,7 @@
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Cercar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -89,8 +89,8 @@
         TRANSLATION: {
             POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'categories',
+            TAGS: 'etiquetes',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -116,7 +116,7 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <em class="page-title-link" data-url="home">Home</em>
+    <em class="page-title-link" data-url="home">Inici</em>
     </h1>
 </div>
                         <div class="main-body-content">
@@ -139,17 +139,17 @@
         <article class="article article-summary">
     <div class="article-summary-inner">
         
-        <a href="/2016/09/20/hello-world/" class="thumbnail">
+        <a href="/2016/09/27/hexo-test/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)" alt="hexo test yoho!~~~~~" class="thumbnail-image"></span>
     
     
         
 <span class="comment-counter">
     <i class="fa fa-comments-o"></i>
     
-        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2016/09/20/hello-world/">0</span>
+        <span class="disqus-comment-count" data-disqus-identifier="" data-disqus-url="http://yoursite.com/2016/09/27/hexo-test/">0</span>
     
 </span>
 
@@ -159,20 +159,24 @@
         
         <div class="article-meta">
             <p class="category">
-            
+            <a class="article-category-link" href="/categories/Tech/">Tech</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Tech/Software/">Software</a>
             </p>
-            <p class="date"><time datetime="2016-09-20T09:35:06.236Z" itemprop="datePublished">2016-09-20</time></p>
+            <p class="date"><time datetime="2016-09-27T12:45:30.000Z" itemprop="datePublished">2016-09-27</time></p>
         </div>
         
     
         <h1 class="article-title" itemprop="name">
-        <a href="/2016/09/20/hello-world/">Hello World</a>
+        <a href="/2016/09/27/hexo-test/">hexo test yoho!~~~~~</a>
         </h1>
     
 
         <p class="article-excerpt">
-            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick
+             Hey yo check it out~ 
+H2
+
+12var s = "JavaScript syntax highlighting";alert(s);
+12s = "Python syntax highlighting"print s
+12No language indicated, so no syntax highlighting.But let&apos;s throw in a &
         </p>
     </div>
 </article>
@@ -190,7 +194,7 @@ Quick
                     <aside id="sidebar">
     <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
     <div class="sidebar-top">
-        <p>follow:</p>
+        <p>seguir:</p>
         <ul class="social-links">
             
                 
@@ -240,10 +244,10 @@ Quick
                     <li>
                         
                         <div class="item-thumbnail">
-                            <a href="/2016/09/20/hello-world/" class="thumbnail">
+                            <a href="/2016/09/27/hexo-test/" class="thumbnail">
     
     
-        <span class="thumbnail-image thumbnail-none"></span>
+        <span style="background-image:url(http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)" alt="hexo test yoho!~~~~~" class="thumbnail-image"></span>
     
     
 </a>
@@ -251,9 +255,9 @@ Quick
                         </div>
                         
                         <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2016/09/20/hello-world/" class="title">Hello World</a></p>
-                            <p class="item-date"><time datetime="2016-09-20T09:35:06.236Z" itemprop="datePublished">2016-09-20</time></p>
+                            <p class="item-category"><a class="article-category-link" href="/categories/Tech/">Tech</a><i class="icon fa fa-angle-right"></i><a class="article-category-link" href="/categories/Tech/Software/">Software</a></p>
+                            <p class="item-title"><a href="/2016/09/27/hexo-test/" class="title">hexo test yoho!~~~~~</a></p>
+                            <p class="item-date"><time datetime="2016-09-27T12:45:30.000Z" itemprop="datePublished">2016-09-27</time></p>
                         </div>
                     </li>
                 
@@ -263,11 +267,18 @@ Quick
 
             
                 
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">categories</h3>
+        <div class="widget">
+            <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/">Tech</a><span class="category-list-count">1</span><ul class="category-list-child"><li class="category-list-item"><a class="category-list-link" href="/categories/Tech/Software/">Software</a><span class="category-list-count">1</span></li></ul></li></ul>
+        </div>
+    </div>
+
 
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">archives</h3>
+        <h3 class="widget-title">arxius</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2016/09/">九月 2016</a><span class="archive-list-count">1</span></li></ul>
         </div>
@@ -276,9 +287,23 @@ Quick
 
             
                 
+    <div class="widget-wrap widget-list">
+        <h3 class="widget-title">etiquetes</h3>
+        <div class="widget">
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/HI/">HI</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/HO/">HO</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/YO/">YO</a><span class="tag-list-count">1</span></li></ul>
+        </div>
+    </div>
+
 
             
                 
+    <div class="widget-wrap widget-float">
+        <h3 class="widget-title">etiqueta cloud</h3>
+        <div class="widget tagcloud">
+            <a href="/tags/HI/" style="font-size: 10px;">HI</a> <a href="/tags/HO/" style="font-size: 10px;">HO</a> <a href="/tags/YO/" style="font-size: 10px;">YO</a>
+        </div>
+    </div>
+
 
             
                 
